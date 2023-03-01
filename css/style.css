@@ -1,0 +1,61 @@
+*, 
+*::after, 
+*::before{
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.game-hastag-container, .game-container{
+    position: relative;
+    width: 400px;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgb(207, 130, 245);
+    margin: 20px;
+}
+
+.game-name{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.game-price{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background: rgb(192, 21, 21);
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    margin: 0;
+}
+
+.game-description {
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.game-link{
+    color: black;
+}
+
+.game-link:active{
+    color: white;
+}
+
+.game-hastag {
+    margin-top: 10px;
+    color:white
+}
